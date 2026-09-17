@@ -17,7 +17,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.lang.reflect.Method;
 
-/** Lets Punchy own FP pikes; priority 500 so we cancel before BW's extra draw. */
 @Mixin(value = ItemInHandRenderer.class, priority = 500)
 public class ItemInHandRendererMixin {
 

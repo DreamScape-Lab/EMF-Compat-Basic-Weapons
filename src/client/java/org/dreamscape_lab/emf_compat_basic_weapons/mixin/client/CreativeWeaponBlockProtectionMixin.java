@@ -16,7 +16,6 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-/** Clubs/hammers/staves ship as generic tools — stop creative one-punch block breaks. */
 @Mixin(Item.class)
 public class CreativeWeaponBlockProtectionMixin {
 

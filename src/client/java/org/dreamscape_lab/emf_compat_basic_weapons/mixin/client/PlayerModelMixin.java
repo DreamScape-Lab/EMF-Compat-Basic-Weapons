@@ -23,7 +23,6 @@ import strm.emfcompat.core.SavedPoses;
 
 import java.util.UUID;
 
-/** Pike 3P: spear hold/thrust through EMF Compat (no bodyBase — that eats FA shoulders). */
 @Mixin(value = PlayerModel.class, priority = 2500)
 public class PlayerModelMixin {
 

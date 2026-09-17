@@ -13,7 +13,6 @@ import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.Map;
 
-/** Blocks Punchy from restarting a long polearm swing while still looking at a block. */
 public final class PolearmAttackGate {
 
     private static final int FALLBACK_ATTACK_TICKS = 20;

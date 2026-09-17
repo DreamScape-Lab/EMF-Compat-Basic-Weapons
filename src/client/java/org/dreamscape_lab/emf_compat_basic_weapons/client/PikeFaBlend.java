@@ -13,7 +13,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
 
-/** Equip ease-in for pike 3P, roughly matching FA's requip/action drag. */
 public final class PikeFaBlend {
 
     public static final float BLEND_RATE = 8.0F;

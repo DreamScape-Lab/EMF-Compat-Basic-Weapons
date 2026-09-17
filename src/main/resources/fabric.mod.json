@@ -8,7 +8,7 @@
   "contact": {
     "GitHub": "https://github.com/DreamScape-Lab/EMF-Compat-Basic-Weapons"
   },
-  "license": "All-Rights-Reserved",
+  "license": "MIT",
   "environment": "client",
   "entrypoints": {
     "client": [
