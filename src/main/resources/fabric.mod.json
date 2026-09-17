@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "emf_compat_basic_weapons",
+  "version": "${version}",
+  "name": "EMF Compat Basic Weapons",
+  "description": "Makes the Basic Weapons work correctly with animated EMF player models. Inspired by EMF Compat series by Stradat",
+  "authors": ["LyraaZX"],
+  "contact": {
+    "GitHub": "https://github.com/DreamScape-Lab/EMF-Compat-Basic-Weapons"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "org.dreamscape_lab.emf_compat_basic_weapons.client.Emf_compat_basic_weaponsClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "emf_compat_basic_weapons.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "basicweapons": ">=2.4.1",
+    "entity_model_features": ">=3.3.2",
+    "emf_compat_core": ">=2.0.0"
+  },
+  "suggests": {
+    "punchy": ">=2.8"
+  }
+}
