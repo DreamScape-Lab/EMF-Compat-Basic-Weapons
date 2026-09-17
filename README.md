@@ -18,7 +18,7 @@ Inspired by Stradat's **EMF Compat** mods.
 - Entity Model Features (≥ 3.3.2)
 - EMF Compat Core (≥ 2.0.0)
 
-**Optional:** [Punchy](https://modrinth.com/mod/punchy) (≥ 2.8) for the FP / attack-gate bits
+**Optional:** [Punchy!](https://www.curseforge.com/minecraft/mc-mods/punchy) (≥ 2.8) for the FP / attack-gate bits
 
 Client only
 
